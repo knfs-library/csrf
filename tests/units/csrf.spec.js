@@ -50,7 +50,6 @@ describe('CSRF Middleware', () => {
 			req.session._csrf = 'testToken';
 
 			csrfMiddleware.setTokenLocalsParam(req, res, next);
-
 			expect(res.locals.csrfToken).toEqual('testToken');
 			expect(next).toHaveBeenCalled();
 		});

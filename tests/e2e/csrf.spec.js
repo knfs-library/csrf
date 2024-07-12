@@ -37,7 +37,11 @@ app.post("/test-endpoint", csrfMiddleware.protect, (req, res) => {
 	res.status(200).send("CSRF token valid");
 });
 
-app.get("/",  (req, res) => {
+app.get("/redirect",  (req, res) => {
+	res.redirect('/');
+});
+
+app.get("/", (req, res) => {
 	res.status(200).send("OK");
 });
 

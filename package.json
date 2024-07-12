@@ -1,6 +1,6 @@
 {
   "name": "@knfs-tech/csrf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cross-site request forgery module",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
