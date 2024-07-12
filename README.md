@@ -1,8 +1,8 @@
 
 <p align="center">
   <br>
-	<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fknfs-jsc%2Fbamimi-security?ref=badge_shield&issueType=license" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknfs-jsc%2Fbamimi-security.svg?type=shield&issueType=license"/></a>
-	<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fknfs-jsc%2Fbamimi-security?ref=badge_shield&issueType=security" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknfs-jsc%2Fbamimi-security.svg?type=shield&issueType=security"/></a>
+	<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fknfs-jsc%2Fcsrf?ref=badge_shield&issueType=license" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknfs-jsc%2Fcsrf.svg?type=shield&issueType=license"/></a>
+	<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fknfs-jsc%2Fcsrf?ref=badge_shield&issueType=security" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fknfs-jsc%2Fcsrf.svg?type=shield&issueType=security"/></a>
 	<a href="https://scrutinizer-ci.com/g/knfs-library/csrf/build-status/master"alt="scrutinizer">
 	<img src="https://scrutinizer-ci.com/g/knfs-library/csrf/badges/build.png?b=master" alt="Build Status" /></a>
 	<a href="https://scrutinizer-ci.com/g/knfs-library/csrf/?branch=master"alt="scrutinizer">
@@ -173,7 +173,7 @@ app.use(csrf.generate({
 
 ## License
 
-Bamimi is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+CSRF is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Author
 * [Kent Phung](https://github.com/khapu2906)
