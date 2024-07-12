@@ -154,8 +154,8 @@ app.use(csrf.generate({
 
 - Default errorResponse is
 ```javascript
-errorResponse: (req, res, next) => {
-  return res.status(403).send('CSRF token invalid');
+errorResponse: (req, res) => {
+  res.status(403).send('CSRF token invalid');
 }
 ```
   
@@ -163,8 +163,8 @@ errorResponse: (req, res, next) => {
 
 ```javascript
 // when you custom
-const newErrorResponse = (req, res, next) => {
-  return res.status(403).render('<h1>CSRF token invalid</h1>');
+const newErrorResponse = (req, res) => {
+  res.status(403).render('<h1>CSRF token invalid</h1>');
 }
 app.use(csrf.generate({
   errorResponse: newErrorResponse
