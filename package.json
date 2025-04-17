@@ -1,14 +1,16 @@
 {
   "name": "@knfs-tech/csrf",
-  "version": "1.0.3",
+  "version": "1.1.1",
   "description": "Cross-site request forgery module",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "test": "jest --runInBand --force-exit --detectOpenHandles"
   },
   "files": [
-    "lib"
+    "lib",
+    "types"
   ],
   "repository": {
     "type": "git",
@@ -34,6 +36,8 @@
     "express-session": "^1.18.0",
     "jest": "^29.7.0",
     "sinon": "^18.0.0",
-    "supertest": "^7.0.0"
+    "supertest": "^7.0.0",
+    "typescript": "^5.8.3",
+    "undici-types": "^7.8.0"
   }
 }
